@@ -5,3 +5,7 @@ spring:
         git:
           uri: https://github.com/streamlesswaveson/udemy-microservices-krueger
           search-paths: config-data
+        native:
+          search-locations: file:///${user.home}/PROJECTS/udemy-microservices-krueger/config-data
+server:
+  port: 8888
