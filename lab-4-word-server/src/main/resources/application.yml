@@ -1,4 +1,7 @@
 eureka:
+  instance:
+    # Allow Eureka to recognize two apps of the same type on the same host as separate instances:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
     serviceUrl:
       defaultZone: http://localhost:8011/eureka/
@@ -45,3 +48,12 @@ spring:
     name: lab-4-noun
 
 words: boat,book,vote,seat,backpack,partition,groundhog
+
+
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: lab-4-noun
+
+words: icicle,refrigerator,blizzard,snowball
