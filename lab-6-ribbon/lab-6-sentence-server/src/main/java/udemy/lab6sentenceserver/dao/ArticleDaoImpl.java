@@ -1,4 +1,4 @@
-package udemy.lab6sentenceserver;
+package udemy.lab6sentenceserver.dao;
 
 import org.springframework.stereotype.Component;
 

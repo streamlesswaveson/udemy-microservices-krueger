@@ -1,7 +1,8 @@
-package udemy.lab6sentenceserver;
+package udemy.lab6sentenceserver.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import udemy.lab6sentenceserver.dao.WordDao;
 
 /**
  * Build a sentence by assembling randomly generated subjects, verbs, 

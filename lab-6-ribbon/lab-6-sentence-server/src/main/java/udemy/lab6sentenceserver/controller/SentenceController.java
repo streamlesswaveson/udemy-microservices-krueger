@@ -1,9 +1,10 @@
-package udemy.lab6sentenceserver;
+package udemy.lab6sentenceserver.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import udemy.lab6sentenceserver.service.SentenceService;
 
 @Controller
 public class SentenceController {

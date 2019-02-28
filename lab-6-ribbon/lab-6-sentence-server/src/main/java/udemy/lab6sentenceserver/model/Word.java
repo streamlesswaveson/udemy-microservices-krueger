@@ -1,4 +1,4 @@
-package udemy.lab6sentenceserver;
+package udemy.lab6sentenceserver.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

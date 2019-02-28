@@ -1,5 +1,7 @@
-package udemy.lab6sentenceserver;
+package udemy.lab6sentenceserver.dao;
 
+
+import udemy.lab6sentenceserver.model.Word;
 
 public interface WordDao {
 
